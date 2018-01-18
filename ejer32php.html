@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Tabla de una fila con casillas de verificacion</title>
+</head>
+
+<body background="fondo1.jpg">
+<h1>Tabla de una fila con casillas de verificacion</h1>
+
+<form action="casillasmarcadas.php" method="get">
+  <fieldset>
+    <legend>Formulario</legend>
+
+    <p>Escriba un numero (0 &lt; numero &le; 10) y mostrare una tabla de una fila
+    de ese tamaño con casillas de verificacion en cada celda.</p>
+
+    <p><strong>Tamaño de la tabla:</strong> <input type="number" name="numero" min="1" max="10" value="10" /></p>
+
+    <p><input type="submit" value="Mostar" /> 
+      <input type="reset" value="Borrar" name="Reset" /></p>
+  </fieldset>
+</form>
+</body>
+</html>
